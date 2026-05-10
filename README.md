@@ -1,10 +1,10 @@
-# Dynamic System Tweaks Magisk Module for armeabi-v7a devices
+# Dynamic System Tweaks Magisk Module for Arm-v7a/Arm-v8a or better.
 
 ### Version:
-v4.6
+v4.7
 
 ### Last Updated:
-10/20/25
+05/10/26
 
 ## Description
 This improves overall System performance without overheating and losing battery power for armeabi-v7a devices
@@ -27,5 +27,5 @@ This improves overall System performance without overheating and losing battery 
 ## This module is available in the IzzySoft Magisk Module Repo:
 [IzzySoft Magisk Repo](https://apt.izzysoft.de/magisk/)
 
-## For arm64-v8a Devices Notice:
-If you want to use this module in a device that is arm64-v8a only, please use this new version of this module [DynamicSystemTweaks-arm64 Magisk Module](https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module)
+## arm-v8a notice:
+I am discontinuing the arm-v8a version of DST, this version now supports both architectures

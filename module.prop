@@ -1,7 +1,7 @@
 id=DynamicSystemTweaks
 name=DynamicSystemTweaks
-version=v4.6
-versionCode=26
+version=v4.7
+versionCode=27
 author=Cyberdev
 description=Improves system performance without battery loss or overheating, module does not support APatch (Android 10+)
 support=https://github.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module/issues

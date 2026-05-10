@@ -3,6 +3,10 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v4.7
+- Restructured the module
+- Set Disable HW Overlay to enabled by default
+
 # v4.6
 - Improved network performance by reworking the tweaks
 - Improved bluetooth connectivity for controllers

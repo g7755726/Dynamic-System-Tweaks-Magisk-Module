@@ -12,7 +12,6 @@ dalvik.vm.heaputilization=0.25
 dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 dalvik.vm.execution-mode=int:fast
-persist.sys.dalvik.vm.lib=libart.so
 
 # Facelock configuration
 ro.facelock.black_timeout=1250
@@ -26,9 +25,6 @@ ro.media.effect.bgdropper.adj=0.2
 # RAM configuration
 persist.sys.purgeable_assets=1
 debug.kill_allocating_task=0
-
-# Boot configuration
-boot.fps=60
 
 # Media configuration
 media.stagefright.enable-http=true
@@ -48,11 +44,11 @@ mm.enable.smoothstreaming=true
 # Audio configuration
 audio.offload.audio=true
 audio.offload.video=true
-audio.offload.size.kb=128
-audio.offload.buffer.size.kb=256
+audio.offload.size.kb=256
+audio.offload.buffer.size.kb=512
 vendor.audio.offload.video=true
-vendor.video.offload.size.kb=128
-vendor.video.offload.buffer.size.kb=256
+vendor.video.offload.size.kb=256
+vendor.video.offload.buffer.size.kb=512
 av.offload.enable=true
 use.voice.path.for.pcm.voip=true
 audio.offload.gapless.enabled=true
@@ -83,8 +79,6 @@ dev.pm.dyn_samplingrate=1
 vendor.audio.deep_buffer.media=true
 audio.deep_buffer.media=true
 vendor.audio.feature.deepbuffer_as_primary.enable=false 
-qc.audio.deep_buffer.media=false
-ro.qc.audio.deep_buffer.media=false
 persist.vendor.audio.deep_buffer.media=false
 vendor.audio.flac.sw.decoder.24bit=true
 flac.sw.decoder.24bit.support=true
@@ -95,7 +89,6 @@ vendor.audio.flac.sw.encoder.24bit=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio.tunnel.encode=true 
 tunnel.audio.encode=true
-qc.tunnel.audio.encode=true
 use.non-omx.mp3.decoder=false
 use.non-omx.aac.decoder=false
 use.non-omx.flac.decoder=false
@@ -158,11 +151,7 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.bt.aac_frm_ctl.enabled=true 
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true 
 persist.vendor.btstack.enable.twsplus=true
-persist.vendor.btstack.enable.twsplussho=true 
-persist.vendor.qcom.bluetooth.scram.enabled=false
-persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true 
-persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true 
-persist.vendor.qcom.bluetooth.twsp_state.enabled=false 
+persist.vendor.btstack.enable.twsplussho=true
 persist.bluetooth.sbc_hd_higher_bitrate=1
 persist.sys.flag.override.settings_bluetooth_hearing_aid=true
 ro.bluetooth.emb_wp_mode=true
@@ -244,24 +233,6 @@ ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 persist.sys.scrollingcache=4
 ro.min_pointer_dur=8
-touch.pressure.scale=0.1
-touch.deviceType=touchScreen
-touch.orientationAware=1
-touch.size.calibration=diameter
-touch.size.scale=1
-touch.size.bias=0
-touch.size.isSummed=0
-touch.pressure.calibration=amplitude
-touch.pressure.scale=0.001
-touch.orientation.calibration=none
-touch.distance.calibration=none
-touch.distance.scale=0
-touch.coverage.calibration=box
-touch.gestureMode=spots
-MultitouchSettleInterval=1ms
-MultitouchMinDistance=1px
-TapInterval=1ms
-TapSlop=1px1
 ro.product.multi_touch_enabled=true
 ro.product.max_num_touch=2
 
@@ -280,6 +251,11 @@ ro.gsm.2nd_data_retry_config=max_retries=1, 2000, 2000, 2000
 # Network configuration
 ro.wifi.channels=500
 persist.radio.multisim.config=dsds
+net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960
 
 # Launcher configuration
 log.tag.launcher_force_rotate=VERBOSE

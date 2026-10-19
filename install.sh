@@ -6,7 +6,7 @@ LATESTARTSERVICE=true
 print_modname() {
   ui_print "*******************************"
   ui_print "    Dynamic System Tweaks      "
-  ui_print "   By Cyberdev | Ver: v4.7     "
+  ui_print "   By Cyberdev | Ver: v4.8     "
   ui_print "    Arch: arm-v7a/arm-v8a      "
   ui_print "*******************************"
 }

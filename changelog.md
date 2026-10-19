@@ -3,6 +3,12 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v4.8:
+- Fixed a boot issue with some devices (hopefully).
+- Improved network connectivity for connections using ipv4/ipv6.
+- Removed tweaks that are incompatible with none Qualcomm hardware
+- Improved Media buffering
+
 ## v4.7
 - Restructured the module
 - Set Disable HW Overlay to enabled by default

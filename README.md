@@ -1,10 +1,10 @@
 # Dynamic System Tweaks Magisk Module for Arm-v7a/Arm-v8a or better.
 
 ### Version:
-v4.7
+v4.8
 
 ### Last Updated:
-05/10/26
+10/19/26
 
 ## Description
 This improves overall System performance without overheating and losing battery power for armeabi-v7a devices
@@ -21,7 +21,7 @@ This improves overall System performance without overheating and losing battery 
 - Rooted device
 
 ## Changelog
-[View changelog here](https://github.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module/blob/main/changelog.md)
+[View changelog here](https://github.com/g7755726/Dynamic-System-Tweaks-Magisk-Module/blob/main/changelog.md)
 
 
 ## This module is available in the IzzySoft Magisk Module Repo:

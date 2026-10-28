@@ -1,7 +1,7 @@
 id=DynamicSystemTweaks
 name=DynamicSystemTweaks
-version=v4.8
-versionCode=28
+version=v4.9
+versionCode=29
 author=Cyberdev
 description=Improves system performance without battery loss or overheating, module does not support APatch (Android 10+)
 support=https://github.com/g7755726/Dynamic-System-Tweaks-Magisk-Module/issues

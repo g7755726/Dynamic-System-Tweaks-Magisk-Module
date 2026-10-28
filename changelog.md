@@ -3,7 +3,7 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
-## v4.9;
+## v4.9:
 - Improved battery life when module is used without impacting performance.
 
 ## v4.8:

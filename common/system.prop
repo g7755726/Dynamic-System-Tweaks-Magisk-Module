@@ -264,6 +264,8 @@ log.tag.launcher_force_rotate=VERBOSE
 wifi.supplicant_scan_interval=200
 persist.wifi_scan_interval=200
 persist.sys.battery_bypass_supported=true
+ro.ril.power_collapse=0
+pm.sleep_mode=1
 
 # Hardware configuration
 persist.android.strictmode=0
